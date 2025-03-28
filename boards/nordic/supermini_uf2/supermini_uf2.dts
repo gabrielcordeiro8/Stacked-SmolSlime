@@ -115,7 +115,7 @@
 	zephyr,user {
 		pwr-gpios = <&gpio0 17 GPIO_OPEN_SOURCE>;
         gnd-gpios = <&gpio0 20 GPIO_OPEN_DRAIN>;
-		int0-gpios = <&gpio0 2 0>;
+		int0-gpios = <&gpio0 29 0>;
 		led-gpios = <&gpio0 15 GPIO_OPEN_SOURCE>;
 		clk-gpios = <&gpio1 11 GPIO_OPEN_DRAIN>; // Uncomment and set to correct pin if using an external clock (crystal oscillator)
 	};
